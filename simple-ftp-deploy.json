@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "port": 21, 
+    "username": "user",
+    "password": "pass",
+    "rootDirectory": "/path/"
+}
