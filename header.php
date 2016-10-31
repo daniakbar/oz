@@ -54,13 +54,13 @@
 				<div class="collapse navbar-collapse navbar-ex1-collapse"> 
 					
 					
-					<ul class=" hidden-xs nav navbar-nav navbar-right">
-							<li><a href="#"><i class="icon-instagram"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-youtube"></i></a></li>
-							<li><a href="http://radio.simaya.net.id:1320/listen.pls" target="_blank"><i class="icon-play"></i> STREAMING</a></li>
-							<li>
+					<ul id="navbar" class=" hidden-xs nav navbar-nav navbar-right">
+							<li id="nav1"><a href="#"><i class="icon-instagram"></i></a></li>
+							<li id="nav2"><a href="#"><i class="icon-facebook"></i></a></li>
+							<li id="nav3"><a href="#"><i class="icon-twitter"></i></a></li>
+							<li id="nav4"><a href="#"><i class="icon-youtube"></i></a></li>
+							<li id="nav5"><a href="http://radio.simaya.net.id:1320/listen.pls" target="_blank"><i class="icon-play"></i> STREAMING</a></li>
+							<li id="nav6">
 								<a href="#" class="navBtn">
 									<i class="icon-reorder icon-large"></i>
 								</a>

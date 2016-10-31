@@ -4,8 +4,11 @@
 
 							<div class="slText">
 								
-								<h1 class="slider-txt"><span style="color: #272727;">#1 HITS</span> RADIO </h1>
-								<h1 class="slider-txt">STATION</h1>
+								<h1 class="slider-txt">
+									<span id="teks1" style="color: #272727; display: inline-block;">#1 HITS</span>
+									<span id="teks2" style="display: inline-block;">RADIO</span> 
+								 </h1>
+								<h1 id="teks3" class="slider-txt" style="display: block;">STATION</h1>
 								
 
 							</div>

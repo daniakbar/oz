@@ -39,6 +39,12 @@
 			<script src="dist/vendor/parallax/parallax.min.js"></script>		
 			<!-- Classie -->
 			<script src="dist/vendor/classie/classie.js"></script>
+			<!-- GSAP -->
+			<script src="dist\vendor\greensock-js\src\minified\tweenmax.min.js"></script>
+			<script src="dist\vendor\greensock-js\src\minified\plugins\CSSPlugin.min.js"></script>
+			<script src="dist\vendor\greensock-js\src\minified\plugins\TextPlugin.min.js"></script>
+			<script src="dist\vendor\greensock-js\src\minified\main.js"></script>
+			
 			<script>
 
 			
