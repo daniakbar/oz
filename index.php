@@ -1,5 +1,5 @@
-<?php include 'header.php' ?>
-					<div class="slider" id="slider">
+<?php include 'header.php'; ?>
+					<!-- <div class="slider" id="slider">
 						<div class="slItems">
 
 							<div class="slText">
@@ -35,6 +35,33 @@
 				
 							</div>
 						</div>
+					</div> -->
+
+					<div class="slider">
+						<div class="slText" style="z-index: 5; position: absolute;">
+								
+								<h1 class="slider-txt" style="z-index: 5;">
+									<span id="teks1" style="color: #272727; display: inline-block;">#1 HITS</span>
+									<span id="teks2" style="display: inline-block;">RADIO</span> 
+								 </h1>
+								<h1 id="teks3" class="slider-txt" style="display: block;">STATION</h1>
+								
+
+							</div>
+						<div class="slmouse">
+								<span class="scroll-btn" style="bottom: -20%;">
+									<a href="#">
+										<span class="mouse">
+											<span>
+											</span>
+										</span>
+									</a>
+								</span>
+								
+							</div>
+					  <div class="slide1" style="background-image: url(images/om-bob.jpg);"></div>
+					  <div class="slide2" style="background-image: url(images/iwan-fals.jpg);"></div>
+					  <div class="slide3" style="background-image: url(images/is.jpg);"></div>
 					</div>
 
 
@@ -201,5 +228,5 @@
 		</div>
 		<!-- ==================================================== -->
 		<!-- CONTENT -->
-<?php include 'footer.php' ?>
+<?php include 'footer.php'; ?>
 		

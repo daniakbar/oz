@@ -1,6 +1,6 @@
-// Components: Nav
-
 @import url('http://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+
 body {
   position: relative;
   width: 100%;
@@ -514,56 +514,5 @@ nav.navbar-fixed-top {
     transition: background .5s ease-in-out, opacity .5s ease;
 }
 
-@media screen and (max-width: 767px){
-    #wrapwrap {
-        padding-top: 50px;
-    }
-    .navbar-fixed-top {
-        z-index: 999;
-    }
-}
-
-// responsive
-
-/* 1024 */
-@media only screen and (max-width: 1024px) {
-
-.container {
-  width: 100%;
-  margin: 0;
-}
-
-// header { width: 8%; }
-
-.main { width: 92%; }
-}
-
-/* 768 */
-@media only screen and (max-width: 768px) {
-
-// header { width: 10%; }
-
-.main { width: 90%; }
-}
-
-/* 480 */
-@media only screen and (max-width: 480px) {
-
-// header { width: 10%; }
-
-.main { width: 90%; }
-
-h3 { font-size: 2em; }
 
 
-/* 320 */
-@media only screen and (max-width: 320px) {
- header {
- // width: 15%;
-}
- .main {
- width: 85%;
-}
-
-
-}

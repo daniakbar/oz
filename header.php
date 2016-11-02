@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Language" content="en">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>OZ RADIO BALI | 101.2FM</title>
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 		<!-- Slider -->
 		<link rel="stylesheet" type="text/css" href="dist/vendor/slider/css/slider.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/simple-slider.css">
 		<!-- <link rel="stylesheet/less" type="text/css" href="less/bootstrap.less" />
 		<script src="dist/js/less-2-7-1.min.js" type="text/javascript"></script> -->
 		<link rel="stylesheet" href="dist/css/bootstrap.css">
 		<!-- Theme Css -->
-		<link rel="stylesheet" href="dist/css/oz.css">
 		<link rel="stylesheet" href="dist/css/paralax.css">
-
+		<link rel="stylesheet" href="dist/css/oz.css">
 		
-
-		
+		<!-- font -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css" />
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
