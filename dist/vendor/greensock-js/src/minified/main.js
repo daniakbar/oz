@@ -1,5 +1,7 @@
 (function($){
 
+	//PAGE 1
+
 	// jQuery
 	var teks1 = $('#teks1'),
 		teks2 = $('#teks2'),
@@ -37,7 +39,7 @@
 		.from(nav4, 0.2, {y:-25, opacity: 0, ease: Power2. easeOut}, '-=0.1')
 		.from(nav5, 0.2, {y:-25, opacity: 0, ease: Power2. easeOut}, '-=0.1')
 		.from(nav6, 0.2, {y:-25, opacity: 0, ease: Power2. easeOut}, '-=0.1')
-		.from(teks1, 1, {y:-25, opacity:0, delay:1, ease: Power2. easeOut})
+		.from(teks1, 1, {y:-25, opacity:0, delay:0.25, ease: Power2. easeOut})
 		.from(teks2, 1, {y:-25, opacity:0, ease: Power2. easeOut}, '-=0.7')
 		.from(teks3, 1, {y:-25, opacity:0, ease: Power2. easeOut}, '-=0.7')
 		.to(teks3, 1, {opacity:1, onComplete: startRepeatAnimation});
@@ -74,5 +76,45 @@
 			.to(teks2, 1, {y:25, opacity: 1, ease: Power2.easeOut}, '-=0.7')		
 			.to(teks3, 1, {y:25, opacity: 1, ease: Power2.easeOut, onComplete: startRepeatAnimation}, '-=0.7');
 	}
+
+	// PAGE 2
+
+	var numberOne = ('#numberOne'),
+		numberOneImg = ('#numberOneImg'),
+		playControl = ('#playControl'),
+		tenTopHits = ('#tenTopHits'),
+		topHitsBox = ('#topHitsBox'),
+		topOne = ('#topOne'),
+		topTwo = ('#topTwo'),
+		topThree = ('#topThree'),
+		topFour = ('#topFour'),
+		topFive = ('#topFive'),
+		topSix = ('#topSix'),
+		topSeven = ('#topSeven'),
+		topEight = ('#topEight'),
+		topNine = ('#topNine'),
+		topTen = ('#topTen'),
+		topForty = ('#topForty'),
+		topHitsArray = [topOne, topTwo, topThree, topFour, topFive, topSix, topSeven, topEight, topNine, topTen, topForty],
+		ads1 = ('#ads1'),
+		ads2 = ('#ads2'),
+		tlPage2 = new TimelineLite();
+
+	tlPage2
+		.from(numberOne, 1, {x:-50, opacity:0, ease:Power2.easeOut})
+		.from(ads1, 1, {x:50, opacity:0, ease:Power2.easeOut}, '-=1')
+		.from(ads2, 1, {x:50, opacity:0, ease:Power2.easeOut}, '-=1')
+		.from(numberOneImg, 1, {y:-25, opacity:0, ease:Power2.easeOut}, '-=0.5')
+		.from(playControl, 1, {y:-25, opacity:0, ease:Power2.easeOut}, '-=1')
+		.from(tenTopHits, 1, {x:50, opacity:0, ease:Power2.easeOut}, '-=0.5')
+		.from(topHitsBox, 1, {x:50, opacity:0, ease:Power2.easeOut}, '-=1')
+		.staggerFrom(topHitsArray, 0.4, {opacity: 0, x: 50, ease: Power1.easeOut}, 0.2, '-=1.5');
+
+	var controller = new ScrollMagic.Controller();
+	var scene2 = new ScrollMagic.Scene({
+		triggerElement: "#trigger1"})
+		.setTween(tlPage2)
+		// .addIndicators({name: "1 (duration: 0"})
+		.addTo(controller);
 
 })(jQuery);

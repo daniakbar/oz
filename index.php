@@ -45,6 +45,8 @@
 		<!-- SLIDESHOW -->
 		
 		<div class="divider-page"></div>
+		<div id="trigger1"></div>
+
 		<!-- CONTENT TOP HITS -->
 		<!-- =================================================== -->
 		<!-- CONTENT -->
@@ -54,11 +56,11 @@
 			  	<div class="row box">
 				  	<div class="col-md-4">
 					  	<div class="box-radius">
-					  		<h4><span class="oz-color">#1</span> Martin Garrix & Bebe Rexha</h4>
-							<div class="top1">
+					  		<h4 id="numberOne"><span class="oz-color">#1</span> Martin Garrix & Bebe Rexha</h4>
+							<div id="numberOneImg" class="top1">
 								<img src="images/maxres.jpg">
 							</div>
-							<div class="menu-play row">
+							<div id="playControl" class="menu-play row">
 								<div class="btn-group btn-group-justified" role="group" aria-label="...">
 								  <div class="btn-group" role="group">
 								    <a href="http://www.joox.com/#/single?id=G1enaDDlmQ+8DYJGK2G6dw==" target="_blank" class="btn">PLAY</a>
@@ -76,20 +78,20 @@
 
 					<div class="col-md-5">
 						<div class="margin">
-				  			<h1 class="hits-text"><span class="ten-txt">#10</span> TOP HITS</h1>
-				  			<div class="top-40">
+				  			<h1 id="tenTopHits" class="hits-text"><span class="ten-txt">#10</span> TOP HITS</h1>
+				  			<div id="topHitsBox" class="top-40">
 				  				<ul>
-				  					<li><a href="#">1. TOP 1</a></li>
-				  					<li><a href="#">2. TOP SAMPLE</a></li>
-				  					<li><a href="#">3. TOP SAMPLE</a></li>
-				  					<li><a href="#">4. TOP SAMPLE</a></li>
-				  					<li><a href="#">5. TOP SAMPLE</a></li>
-				  					<li><a href="#">6. TOP SAMPLE</a></li>
-				  					<li><a href="#">7. TOP SAMPLE</a></li>
-				  					<li><a href="#">8. TOP SAMPLE</a></li>
-				  					<li><a href="#">9. TOP SAMPLE</a></li>
-				  					<li><a href="#">10. TOP SAMPLE</a></li>
-				  					<li><a href="#">#40 TOP HITS</a></li>
+				  					<li id="topOne"><a href="#">1. TOP 1</a></li>
+				  					<li id="topTwo"><a href="#">2. TOP SAMPLE</a></li>
+				  					<li id="topThree"><a href="#">3. TOP SAMPLE</a></li>
+				  					<li id="topFour"><a href="#">4. TOP SAMPLE</a></li>
+				  					<li id="topFive"><a href="#">5. TOP SAMPLE</a></li>
+				  					<li id="topSix"><a href="#">6. TOP SAMPLE</a></li>
+				  					<li id="topSeven"><a href="#">7. TOP SAMPLE</a></li>
+				  					<li id="topEight"><a href="#">8. TOP SAMPLE</a></li>
+				  					<li id="topNine"><a href="#">9. TOP SAMPLE</a></li>
+				  					<li id="topTen"><a href="#">10. TOP SAMPLE</a></li>
+				  					<li id="topForty"><a href="#">#40 TOP HITS</a></li>
 				  				</ul>
 				  			</div>
 				  		</div>
@@ -97,13 +99,13 @@
 
 				  	<div class="col-md-3">
 
-				  		<div class="ads no-ads">
+				  		<div id="ads1" class="ads no-ads">
 				  			<a href="#">
 				  				<img src="images/biznet.jpg">
 				  			</a>	
 				  		</div>
 
-				  		<div class="ads">
+				  		<div id="ads2" class="ads">
 				  			<a href="#">
 				  				<img src="images/xl.jpg">
 				  			</a>	
@@ -115,7 +117,6 @@
 		</div>
 
 		<div class="divider-page"></div>
-		
 
 		<div id="title" style="background-image: url(images/maxres.jpg);" class="slide-section">
 		  <div class="image-overlay"></div>
