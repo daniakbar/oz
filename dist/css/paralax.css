@@ -72,25 +72,6 @@ p {
   display: block;
 }
 
-
-
-i mg {
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}
-
-im g:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-}
-
 .slide-section:before {
   content: "";
   // position: absolute;
@@ -141,9 +122,9 @@ im g:last-of-type {
 }
 
 #slide1-section:before {
-  transform: translateZ(-1px) scale(2);
-  transform: translateY(0);
-  transform: translateX(0);
+  // transform: translateZ(-1px) scale(2);
+  // transform: translateY(0);
+  // transform: translateX(0);
   z-index:-1;
 }
 
@@ -152,9 +133,9 @@ im g:last-of-type {
 }
 
 #slide3-section:before {
-  transform: translateZ(-1px) scale(2);
-  transform: translateY(0);
-  transform: translateX(0);
+  // transform: translateZ(-1px) scale(2);
+  // transform: translateY(0);
+  // transform: translateX(0);
   z-index:-1;
 }
 
@@ -177,7 +158,7 @@ im g:last-of-type {
     display: block;
     position: absolute;
     background: rgba(34, 34, 34, 0.98); /* fallback for old browsers */
-    opacity: 0.89;
+    // opacity: 0.89;
 }
 
 .image-overlayoz {
@@ -196,7 +177,7 @@ im g:last-of-type {
     background: #f4c70b; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #f60a9a , #f4c70b); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #f60a9a , #f4c70b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-    opacity: 0.89;
+    // opacity: 0.89;
 }
 
 .menu-play{
@@ -360,12 +341,12 @@ im g:last-of-type {
 }
 .slide-client {
     position: relative;
-    padding: 25vh 10%;
-    min-height: 40vh;
-    width: 100vw;
+    padding: 200px 10%;
+    min-height: 1000px;
+    width: 100%;
     box-sizing: border-box;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
-    transform-style: inherit;
+    // transform-style: inherit;
     z-index: -1;
 }
 

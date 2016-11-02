@@ -32,15 +32,15 @@
 			<!-- Main js -->
 			<script src="dist/js/main.js"></script>
 			<!-- Slider -->
-			<script src="dist/vendor/slider/js/slider.js"></script>
+			<!-- <script src="dist/vendor/slider/js/slider.js"></script> -->
 			<!-- Mousetrap -->
-			<script src="dist/vendor/mousetrap/mousetrap.js"></script>
+			<!-- <script src="dist/vendor/mousetrap/mousetrap.js"></script> -->
 			<!-- Parallax -->
-			<script src="dist/vendor/parallax/parallax.min.js"></script>		
+			<!-- <script src="dist/vendor/parallax/parallax.min.js"></script> -->		
 			<!-- Classie -->
-			<script src="dist/vendor/classie/classie.js"></script>
+			<!-- <script src="dist/vendor/classie/classie.js"></script> -->
 			<!-- GSAP -->
-			<script src="dist\vendor\greensock-js\src\minified\tweenmax.min.js"></script>
+			<script src="dist\vendor\greensock-js\src\minified\TweenMax.min.js"></script>
 			<script src="dist\vendor\greensock-js\src\minified\plugins\CSSPlugin.min.js"></script>
 			<script src="dist\vendor\greensock-js\src\minified\plugins\TextPlugin.min.js"></script>
 			<script src="dist\vendor\greensock-js\src\minified\main.js"></script>
@@ -78,6 +78,19 @@
 
 			
 
+		</script>
+
+		<script type="text/javascript">
+		function downloadJSAtOnload() {
+		var element = document.createElement("script");
+		element.src = "dist/vendor/modernizr.custom.js";
+		document.body.appendChild(element);
+		}
+		if (window.addEventListener)
+		window.addEventListener("load", downloadJSAtOnload, false);
+		else if (window.attachEvent)
+		window.attachEvent("onload", downloadJSAtOnload);
+		else window.onload = downloadJSAtOnload;
 		</script>
 
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
